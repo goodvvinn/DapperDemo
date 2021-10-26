@@ -8,7 +8,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DapperDemo.Repository
 {
-    public class CompanyRepositoryEF : ICompanyRepository
+    public class CompanyRepositoryEF
+        : ICompanyRepository
     {
         private readonly AppDBContext _db;
 

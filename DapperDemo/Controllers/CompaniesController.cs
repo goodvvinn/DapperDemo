@@ -85,6 +85,7 @@ namespace DapperDemo.Controllers
         {
             if (id != company.CompanyId)
             {
+                System.Console.WriteLine("------> Company not found");
                 return this.NotFound();
             }
 
